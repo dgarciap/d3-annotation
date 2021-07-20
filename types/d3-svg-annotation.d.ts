@@ -32,6 +32,9 @@ type BBox = {
 };
 
 interface AnnotationConfig {
+  id: string | number;
+  className: string;
+  data?: any;
   color?: string;
   type?: any;
   note?: {
